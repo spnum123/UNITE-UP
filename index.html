@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>UNITE UP</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+    <div class="header" id="topheader">
+        <div class="container text-uppercase p-2">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navstyle" href="#">UNITE UP
+ </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-uppercase ">
+                        <li class="nav-item active">
+                            <a class="nav-link navstyle" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navstyle" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navstyle" href="#aboutus">about </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navstyle" href="#result">result</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navstyle" href="#contactus">contact us</a>
+                        </li>
+    
+    
+                    </ul>
+    
+                </div>
+            </nav>
+            <!-- nav bar code ends here -->
+            <br>
+            <br>
+            <!-- image slider starts here-->
+            <div class="slideshow-container">
+            
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade container-fluid">
+                     
+                    <img src="./images/larm-rmah-AEaTUnvneik-unsplash.jpg" style="width:100%">
+                    <div class="text">Nonprofits around the world apply and join GlobalGiving to access more funding, to build new skills, and to make important connections 
+                        </div>
+                </div>
+            
+                <div class="mySlides fade">
+                    
+                    <img src="./images/markus-winkler-wLBVAF-kMR0-unsplash.jpg" style="width:100%">
+                    <div class="text">Generous companies and their employees further support high-impact projects, helping local communities thrive</div>
+                </div>
+            
+                <div class="mySlides fade">
+                     
+                    <img src="./images/seth-doyle-zf9_yiAekJs-unsplash.jpg" style="width:100%">
+                    <div class="text">People like you give what you can to your favorite projects; you feel great when you get updates about how your money is put to work by trusted organizations.</h1></div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <!-- image slider ends here -->
+
+        <!-- two sided home  part starts -->
+        <div class="container-fluid ">
+            <div class="row ">
+                <!-- to get the space form left and right -->
+                <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- left side of the home  -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5 ">
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Happening Now</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Updates from Causes and around the web </span>  </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/pexels-anna-shvets-4167544.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Argument in favor</span>
+                                    Making Daylight Saving Time permanent across the U.S. would simplify Americans’ lives by ending the practice of
+                                    resetting clocks twice a year to “spring forward” and “fall back”, which could yield benefits in terms of reduced health
+                                    risks and increased economic activity.</p>
+                                    <p> <span class="font-weight-bold">Argument opposed</span>
+                                    The current time system with eight months of Daylight Saving Time and time changes in March and November isn’t that
+                                    challenging to abide by. There aren’t enough definitive benefits to year-round Daylight Saving Time to justify the
+                                    transition..
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa "></i>LIKE</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply1')">VIEW DETAILS <badge class="bg-white text-dark p-2">1</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> EVENT </span> this event is going in brazil donate now and become a part of helping world.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2nd topic  -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">uk school</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> OFFERS FREE  </span> SANITARY PADS TO STUDENTS, STAFF </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/ben-white-83tkHLPgg2Q-unsplash.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">UK school offers free sanitary pads to students, staff</span> </p><br><p> The Khalsa Academy, a secondary school in Wolverhampton, UK, has decided to provide free menstrual products to all in
+                                    their schools. Working with the award-winning period charity Binti International, the school now provides free period
+                                    products to pupils, staff and visitors to the school.</p>
+                                   
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <div class="button">
+                                            
+                                              <a href="donate.html" class="btn btn-two">DONATE NOW</a>
+                                              
+                                          </div>
+                                         
+                                           
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">VIEW DETAILS <badge class="bg-white text-dark p-2">2</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> teaching , </span> teach to needy form your own place little contribution can make a huge difference</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> SOCIAL CAUSE </span>earn points by making social cause </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3rd topic -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">India donates</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> 1.8 million N95 </span> masks to American city of Philadelphia 
+                                         </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="./images/kat-yukawa-K0E6E0a0R3A-unsplash.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">WASHINGTON:</span> WASHINGTON: India has donated 1.8 million N95 masks to Philadelphia, the largest city in the US state of Pennsylvania,
+                                    to help in its fight against COVID-19, setting another example of a robust Indo-US partnership in the health sector.
+                                    
+                                   </p>
+                                    <p>
+                                    The move comes after the Mayor of Philadelphia, Jim Kenney, made a request to India for supply of masks to be used by
+                                    the city's frontline workers.
+                                    
+                                     
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div class="button">
+                                            
+                                            <a href="donate.html" class="btn btn-two">DONATE NOW</a>
+                                            
+                                        </div>
+                                        
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply3')">VIEW DETAILS <badge class="bg-white text-dark p-2">0</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold">NO DETAILS  </span> AVALIABLE FOR THIS EVENT </p>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  *******************************************************
+            **********************************************************.
+            right side of the div
+            *******************************************************
+            **********************************************************
+            -->
+                        <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                            <div class="row gy-5 left_div__blog">
+                                <!-- we are hiring -->
+                                <div class="col-12  about_me_div shadow">
+                                    <p>...........</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae repellendus quisquam eligendi, iure et natus corporis esse fuga tenetur nisi.</p>
+                                </div>
+                                <!-- our corporate patners -->
+                                <div class=" popular_post ">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>our corporate patners work</h2>
+                                    </div>
+                                    <div class="right_sub__div shadow">
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img1 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Microsoft</h3>
+                                                <p class="text-capitalize">worth 300 m</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img2 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>facebook</h3>
+                                                <p class="text-capitalize">worth 350m</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img3 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>amazon</h3>
+                                                <p class="text-capitalize">worth 600 m</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img4 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>apple</h3>
+                                                <p class="text-capitalize">worth 250 m</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- coron -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>CORONAVIRUS</h2>
+                                    </div>
+                                    <div class="right_sub__div ">
+                                        <div class="adevetise_img bg-light shadow">
+                                            <p>how to help !!!</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- tags -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Rise funds</h2>
+                                    </div>
+                                    <div class="tags_main right_sub__div">
+                                        <a href="#" class="badge shadow text-capitalize"> story </a>
+                                        <a href="#" class="badge shadow text-capitalize"> report </a>
+                                        <a href="#" class="badge shadow text-capitalize"> help </a>
+                                        <a href="#" class="badge shadow text-capitalize"> project </a>
+                                        <a href="#" class="badge shadow text-capitalize"> trust </a>
+                                        <a href="#" class="badge shadow text-capitalize"> covid-19 </a>
+                                        <a href="#" class="badge shadow text-capitalize"> emergency </a>
+                                        <a href="#" class="badge shadow text-capitalize"> location </a>
+                                        <a href="#" class="badge shadow text-capitalize"> NGO </a>
+                                        <a href="#" class="badge shadow text-capitalize"> fund </a>
+                                    </div>
+                                </div>
+                                <!-- Inspiration -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Inspiration</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <div class="row gx-3">
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://cdn.pixabay.com/photo/2016/09/12/09/53/abc-1663397_960_720.png" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://cdn.pixabay.com/photo/2016/09/12/09/52/abc-1663388_960_720.png" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://cdn.pixabay.com/photo/2016/09/12/09/55/abc-1663409_960_720.png" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://cdn.pixabay.com/photo/2016/09/12/09/56/abc-1663414__340.png" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Follow Me -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Follow us</h2>
+                                    </div>
+                                    <div class="right_sub__div d-flex justify-content-around">
+                                        <a href="#"> <i class="fab fa-facebook-square fa-3x"></i></a>
+                                        <a href="https://www.instagram.com/explore/" target="_thapa"> <i class="fab fa-3x fa-instagram"></i></a>
+                                        <a href="#"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                        <a href="#"> <i class="fab fa-3x fa-twitter-square"></i></a>
+                                        <a href="#"> <i class="fab fa-3x fa-youtube-square"></i> </a>
+                                        <a href="#"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Subscribe -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Join us</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Enter your e-mail below and get notified on the latest event going.</label>
+                                                <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="subs_btn d-block" type="submit">send</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+        <!-- Optional JavaScript -->
+        <!-- Popper.js first, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+            integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+        var clickCount = 0;
+        like.addEventListener('click', function() {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function() {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+        // show and hide the replies
+        const reply = (rep) => {
+         
+            var res = document.getElementById(rep);
+            
+            if (res.className == "replies") {
+                res.className = "rishav";
+                res.style.WebkitTransition = 'all 0.3s ease';
+                // res.style.transition = 'all 0.3s ease';
+                // console.log(thapa_show);
+            } else if (res.className == 'rishav') {
+                // res.className = " ";
+                 
+                res.className = "replies";
+            }
+        }
+        // -----------function for slide image-----------
+        var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+        </script>
+        <!-- ---------------------what do we offer----------------------- -->
+        <section class="serviceoffer" id="servicediv" >
+            <div class="container headings text-center" id="aboutus">
+                <h1 class="text-center font-weight-bold">We're all over the world!</h1>
+                <p class="text--center">Check out where we're making an impact</p>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                 <div class="col-lg-6  col-10 offset-1 offset-lg-0">
+                     <div class="names my-3">
+                      <h1>india</h1>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">100%</div>
+                    </div>
+                    
+                    </div>  
+                     <div class="names my-3">
+                      <h1>brazil</h1>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width:40%">40%</div>
+                    </div>
+                    
+                    </div>  
+                     <div class="names my-3">
+                      <h1>seriya</h1>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:80%">80%</div>
+                    </div>
+                    
+                    </div>  
+                     <div class="names my-3">
+                      <h1>labnon</h1>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:30%">30</div>
+                    </div>
+                    
+                    </div>  
+                     <div class="names my-3">
+                      <h1>africa</h1>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:60%">60</div>
+                    </div>
+                    
+                    
+                    </div>  
+                 </div>
+                 <div class="col-lg-6 col-md-12 col-12 servicediv">
+                     <div class="row">
+                         <div class="col-lg-2 col-2 service-icon">
+                             <i class="fa-3x fa fa-wheelchair" aria-hidden="true"></i>
+                         </div>
+                         <div class="col-lg-10 col-10">
+                           <h2>physically challenged</h2>
+                           <p>we all over the world are working integrated whith goverment to up lift the socity of physically challenged  educate to childern and nation</p>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-lg-2 col-2 service-icon">
+                             <i class="fa-3x fa fa-blind" aria-hidden="true"></i>
+                         </div>
+                         <div class="col-lg-10 col-10">
+                           <h2>problem whith vision</h2>
+                           <p>we are working as eye of people who suffers from blindness and put evert efford possible to give so donate as much as possible</p>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-lg-2 col-2 service-icon">
+                             <i class="fa-3x fa fa-low-vision" aria-hidden="true"></i>
+                         </div>
+                         <div class="col-lg-10 col-10">
+                           <h2>you can help</h2>
+                           <p>by joining us you can saves lifes donate to people god will donate you your one donation can heal the wonded people all over the world</p>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+            </div>
+           
+         </section>
+        <!-- ---------------------what do we end offer----------------------- -->
+        <!-- -----------------people donated------------------ -->
+        <section class="sectionstyle">
+            <div class="container text-center">
+                <p class="text-center font-weight-bold">Our impact ->
+                Together we can make a change. This is what we achieved so far.</p>
+            </div>
+            <br>
+            <br>
+            <div class="container d-flex justify-content-around align-items-center text-center">
+                <div id="result">
+                    <h1 class="count">1</h1>
+                    <p>project online</p>
+                </div>
+                <div>
+                    <h1 class="count">1,800</h1>
+                    <p>Projects Realized</p>
+                </div>
+                <div>
+                    <h1 class="count">42,500</h1>
+                    <p>People Involved</p>
+                </div>
+                <div>
+                    <h1 class="count">€3,801,28</h1>
+                    <p>raised</p>
+                </div>
+            </div>
+        </section>
+        
+         
+        <!-- ----------------------people donated end------------------- -->
+
+
+
+        <!-- ----------------------footer bootstrap start------------------- -->
+        <!-- Footer -->
+        <footer class="page-footer  footstyle   pt-4 " id="contactus">
+        
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+        
+                <!-- Grid row -->
+                <div class="row">
+        
+                    <!-- Grid column -->
+                    <div class="col-md-4 mx-auto">
+        
+                        <!-- Content -->
+                        <h3 class="font-weight-bold text-uppercase mt-3 mb-4">contact us</h2>
+                        <p>P.O. Box 7222
+                        Colorado Springs, CO 80933
+                        info@rishavcharity.com</p>
+                        <br>
+                        <p>MISSION FAMILIES FAQ BLOG TEAM CONTACT DONATE</p>
+        
+                    </div>
+                    <!-- Grid column -->
+        
+                    <hr class="clearfix w-100 d-md-none">
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2 mx-auto">
+        
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 linkhead">CEO</h5>
+        
+                        <ul class="list-group">
+                            <li>
+                                <a href="#!">phone</a>
+                            </li>
+                            <li>
+                                <a href="#!">email</a>
+                            </li>
+                            <li>
+                                <a href="#!">address</a>
+                            </li>
+                            <li>
+                                <a href="#!">office</a>
+                            </li>
+                        </ul>
+        
+                    </div>
+                    <!-- Grid column -->
+        
+                    <hr class="clearfix w-100 d-md-none">
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2 mx-auto">
+        
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 linkhead">chairman</h5>
+        
+                        <ul class="list-group">
+                            <li>
+                                <a href="#!">phone</a>
+                            </li>
+                            <li>
+                                <a href="#!">email</a>
+                            </li>
+                            <li>
+                                <a href="#!">office</a>
+                            </li>
+                            <li>
+                                <a href="#!">appoiment</a>
+                            </li>
+                        </ul>
+        
+                    </div>
+                    <!-- Grid column -->
+        
+                    <hr class="clearfix w-100 d-md-none">
+        
+                    <!-- Grid column -->
+                    <div class="col-md-2 mx-auto">
+        
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 linkhead">manager</h5>
+        
+                        <ul class="list-group">
+                            <li>
+                                <a href="#!">reach</a>
+                            </li>
+                            <li>
+                                <a href="#!">join</a>
+                            </li>
+                            <li>
+                                <a href="#!">lettter</a>
+                            </li>
+                            <li>
+                                <a href="#!">request</a>
+                            </li>
+                        </ul>
+        
+                    </div>
+                    <!-- Grid column -->
+        
+                </div>
+                <!-- Grid row -->
+        
+            </div>
+            <!-- Footer Links -->
+        
+            <hr>
+        
+            <!-- Call to action -->
+            <ul class="list-unstyled list-inline text-center py-2">
+                <li class="list-inline-item">
+                    <h5 class="mb-1">Register for free</h5>
+                </li>
+                <li class="list-inline-item">
+                    <a href="http://127.0.0.1:5500/login.html" class="btn btn-danger btn-rounded">Sign up!</a>
+                </li>
+            </ul>
+            <!-- Call to action -->
+        
+            <hr>
+        
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1">
+                        <i class="fab fa-facebook-f"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                        <i class="fab fa-twitter"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-gplus mx-1">
+                        <i class="fab fa-google-plus-g"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-1">
+                        <i class="fab fa-linkedin-in"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-dribbble mx-1">
+                        <i class="fab fa-dribbble"> </i>
+                    </a>
+                </li>
+            </ul>
+            <!-- Social buttons -->
+        
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> By Rishavkumar</a>
+            </div>
+            <!-- Copyright -->
+        
+        </footer>
+        <!-- Footer -->
+        <!-- ----------------------footer bootstrap end------------------- -->
+         
+        
+    </body>
+
+</html>  
